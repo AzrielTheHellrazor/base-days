@@ -57,14 +57,12 @@ export default function WishlistLandingPage() {
           <InfoIcon className="" />
         </div>
       </div>
-      <div className="flex justify-center p-5">
-        <h2 className="bg-white text-black text-[48px] px-4 py-2">
+      <div className="flex flex-col items-center space-y-6 mt-10">
+        <h2 className="w-3/4 bg-white text-black text-[48px] px-4 py-2 mb-8">
           CA:8Trg8yE6Eqga4Z3BdS4HpE2Q633PCCiMZTArMBNasda9
         </h2>
-      </div>
-      <div className="flex flex-col items-center space-y-6 mt-10">
         <input
-          className="w-3/4 bg-white text-black text-[48px] px-4 py-2 placeholder-gray-500"
+          className="w-3/4 bg-white text-black text-[48px] px-4 py-2 placeholder-black"
           placeholder="Share your BASE SANTA wish! 🎅✨"
         />
         <input
@@ -78,8 +76,6 @@ export default function WishlistLandingPage() {
           <ShareIcon />
         </div>
       </div>
-
-      {/* Jesse Icon */}
       <div className="flex justify-center mt-10">
         <JesseIcon />
       </div>
