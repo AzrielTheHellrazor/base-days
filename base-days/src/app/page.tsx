@@ -61,19 +61,21 @@ export default function WishlistLandingPage() {
         <h2 className="w-3/4 bg-white text-black text-[48px] px-4 py-2 mb-8">
           CA:8Trg8yE6Eqga4Z3BdS4HpE2Q633PCCiMZTArMBNasda9
         </h2>
-        <input
-          className="w-3/4 bg-white text-black text-[48px] px-4 py-2 placeholder-black"
-          placeholder="Share your BASE SANTA wish! 🎅✨"
-        />
+        <h2 className="w-3/4 bg-white text-black text-[48px] px-4 py-2 ">
+          Share your BASE SANTA wish! 🎅✨
+        </h2>
         <input
           className="w-3/4 bg-white text-black text-[48px] px-4 py-2 placeholder-gray-500"
           placeholder="|...yellow lambo"
         />
         <div className="relative w-3/4 flex justify-end">
-          <h1 className="absolute text-[48px] text-black uppercase mr-16 mt-9">
-            share wish
-          </h1>
-          <ShareIcon />
+          <button>
+            {" "}
+            <h1 className="absolute text-[48px] text-black uppercase mr-16 mt-9">
+              share wish
+            </h1>
+            <ShareIcon />
+          </button>
         </div>
       </div>
       <div className="flex justify-center mt-10">
